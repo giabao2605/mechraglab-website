@@ -1,0 +1,15 @@
+{
+  "name": "mechraglab-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static MechRAG Lab landing page",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build.mjs",
+    "check": "npm run test && npm run build"
+  }
+}
